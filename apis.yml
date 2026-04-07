@@ -9,8 +9,8 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - SaaS Management
-  - Spend Optimization
   - Shadow IT
+  - Spend Optimization
 url: >-
   https://raw.githubusercontent.com/api-evangelist/binadox/refs/heads/main/apis.yml
 created: '2026-03-27'
