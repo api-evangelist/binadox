@@ -11,10 +11,12 @@ tags:
   - SaaS Management
   - Shadow IT
   - Spend Optimization
+  - Cloud Cost
+  - License Management
 url: >-
   https://raw.githubusercontent.com/api-evangelist/binadox/refs/heads/main/apis.yml
 created: '2026-03-27'
-modified: '2026-03-27'
+modified: '2026-04-19'
 specificationVersion: '0.19'
 apis:
   - aid: binadox:binadox
@@ -26,12 +28,38 @@ apis:
     tags:
       - SaaS Management
       - Spend Optimization
+      - Shadow IT
+      - License Management
     properties:
       - type: Documentation
         url: https://www.binadox.com
 common:
+  - type: Portal
+    url: https://www.binadox.com
   - type: Website
     url: https://www.binadox.com
+  - type: Features
+    data:
+      - name: SaaS Spend Management
+        description: Track and optimize SaaS subscriptions and licenses across the organization.
+      - name: Shadow IT Discovery
+        description: Discover unauthorized SaaS applications in use across the organization.
+      - name: License Optimization
+        description: Identify unused and underutilized licenses to reduce SaaS costs.
+      - name: Usage Analytics
+        description: Monitor actual software usage to inform renewal and optimization decisions.
+      - name: Cost Allocation
+        description: Allocate SaaS costs to departments and cost centers for chargeback.
+  - type: UseCases
+    data:
+      - name: SaaS Portfolio Visibility
+        description: Gain complete visibility into all SaaS applications in use across the organization.
+      - name: License Renewal Optimization
+        description: Right-size license renewals based on actual usage data.
+      - name: Shadow IT Governance
+        description: Identify and govern unauthorized SaaS applications to reduce security risk.
+      - name: IT Budget Management
+        description: Track SaaS spending against budget and forecast future costs.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
