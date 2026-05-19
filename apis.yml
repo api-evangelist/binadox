@@ -41,6 +41,10 @@ apis:
       - type: Documentation
         url: https://www.binadox.com/documentation/
 common:
+  - type: GitHubOrganization
+    url: https://github.com/binadox-public
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/binadox-inc-
   - type: Portal
     url: https://www.binadox.com
   - type: Website
