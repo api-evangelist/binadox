@@ -7,7 +7,7 @@ description: >-
   gaining complete visibility into their software and infrastructure portfolio.
   Binadox integrates with AWS, Azure, GCP, and 100+ SaaS applications.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - SaaS Management
   - Shadow IT
