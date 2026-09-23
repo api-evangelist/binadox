@@ -1,0 +1,30 @@
+# Front Door AI Index — binadox — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: binadox
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.binadox.com
+  final_host: www.binadox.com
+  ownership: own
+  owner: binadox
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 7
+  host_score: 7
+  density: 3.53
+  words: 1981
+  tiers:
+    agentic: 0
+    core: 7
+    model: 0
+  ambiguous: 10
+  top_terms:
+    LLMs: 6
+    automation: 5
+    predictive: 3
+    AI: 1
+    agent: 1
+    smart: 1
