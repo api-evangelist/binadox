@@ -1,4 +1,4 @@
-# Binadox (binadox)
+# Binadox
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,64 +66,102 @@
 
 Binadox is a SaaS spend management and optimization platform providing usage monitoring, license optimization, shadow IT discovery, and cloud cost management to help organizations reduce wasted SaaS and cloud spend while gaining complete visibility into their software and infrastructure portfolio. Binadox integrates with AWS, Azure, GCP, and 100+ SaaS applications.
 
-**URL:** [https://www.binadox.com](https://www.binadox.com)
+**Areas:** SaaS Management · Shadow IT · Spend Optimization · Cloud Cost · License Management · FinOps · ITAM
 
-## Tags:
+## Binadox on APIs.io
 
- - SaaS Management, Shadow IT, Spend Optimization, Cloud Cost, License Management, FinOps, ITAM
+Everything profiled for Binadox is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/binadox/](https://apis.io/providers/binadox/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (1)
 
-- **Created:** 2026-03-27
-- **Modified:** 2026-04-21
+- [Binadox API](https://apis.io/apis/binadox/binadox/) — Binadox is a SaaS spend management and optimization platform providing usage monitoring, license optimization, and shadow IT discovery. The platform…
 
-## Features
+### Published properties
 
-| Name | Description |
-|------|-------------|
-| SaaS Spend Management | Track and optimize SaaS subscriptions and licenses across the organization. |
-| Shadow IT Discovery | Discover unauthorized SaaS applications in use across the organization via proxy and browser extension. |
-| License Optimization | Identify unused and underutilized licenses to reduce SaaS costs. |
-| Usage Analytics | Monitor actual software usage to inform renewal and optimization decisions. |
-| Cost Allocation | Allocate SaaS costs to departments and cost centers for chargeback and showback. |
-| Cloud Cost Management | Track and optimize AWS, Azure, and GCP cloud infrastructure spend. |
-| LLM Cost Management | Track and optimize AI/LLM usage costs across ChatGPT, Azure OpenAI, AWS Bedrock, and Google Vertex AI. |
-| Automation Rules | Create automated rules for license provisioning, deprovisioning, and cost alerts. |
-| IaC Cost Tracker | Estimate infrastructure-as-code costs before deployment via SSH and HTTPS integration. |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Use Cases
+#### Security (1)
 
-| Name | Description |
-|------|-------------|
-| SaaS Portfolio Visibility | Gain complete visibility into all SaaS applications in use across the organization. |
-| License Renewal Optimization | Right-size license renewals based on actual usage data. |
-| Shadow IT Governance | Identify and govern unauthorized SaaS applications to reduce security risk. |
-| IT Budget Management | Track SaaS spending against budget and forecast future costs. |
-| FinOps Cloud Optimization | Optimize cloud costs across AWS, Azure, and GCP with usage-based recommendations. |
-| AI Spend Governance | Monitor and control LLM and AI tool spending across the organization. |
+Authentication, trust centre, and vulnerability disclosure.
 
-## Integrations
+- [Binadox Domain Security](https://apis.io/security/binadox/binadox-domain-security/)
 
-| Name | Description |
-|------|-------------|
-| Amazon Web Services | Integrate with AWS for cloud cost monitoring and resource optimization. |
-| Microsoft Azure | Connect Azure subscriptions for unified cloud spend visibility. |
-| Google Cloud Platform | Monitor GCP resource usage and costs through Binadox. |
-| DigitalOcean | Track DigitalOcean infrastructure costs and usage. |
-| Microsoft 365 | Analyze Microsoft 365 license usage across the organization. |
-| Google Workspace | Monitor Google Workspace seat usage and optimize license spend. |
-| ChatGPT | Track ChatGPT and OpenAI API usage and associated costs. |
-| Azure OpenAI | Monitor Azure OpenAI API consumption and costs. |
-| AWS Bedrock | Track AWS Bedrock AI model usage and spending. |
-| Google Vertex AI | Monitor Google Vertex AI model API costs and usage. |
+#### Plans and pricing (1)
 
-## Common Properties
+Published plans, tiers and prices.
 
-- [Portal](https://www.binadox.com)
+- [Binadox Plans Pricing](https://apis.io/plans/binadox/binadox-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Binadox Rate Limits](https://apis.io/rate-limits/binadox/binadox-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Binadox Finops](https://apis.io/finops/binadox/binadox-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.binadox.com)
 - [Documentation](https://www.binadox.com/documentation/)
+- [Blog](https://www.binadox.com/blog/feed/)
+- [GitHub](https://github.com/binadox-public)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 11.6** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/binadox/](https://apis.io/providers/binadox/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Binadox: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/binadox/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
